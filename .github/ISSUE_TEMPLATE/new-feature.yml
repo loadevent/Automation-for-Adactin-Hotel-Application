@@ -1,4 +1,4 @@
-name: New Test Case
+name: "New Test Case"
 description: Create a new Test Case
 labels: ["test case"]
 body:
