@@ -1,5 +1,5 @@
 name: New Test Case
-description: Suggest or request a new feature
+description: Create a new Test Case
 labels: ["test case"]
 body:
   - type: markdown
@@ -7,23 +7,35 @@ body:
       value: |
         Please fill out the sections below to properly define the test case.
   - type: textarea
-    id: description
+    id: theid
     attributes:
       label: Test Case ID
-      placeholder: Provide Test Case ID
+      placeholder: Provide Test Case ID (TC 101)
     validations:
       required: true
   - type: textarea
-    id: rationale
+    id: objective
     attributes:
       label: Objective
       placeholder: To verify login functionality
   - type: textarea
-    id: context
+    id: steps
     attributes:
       label: Steps
       placeholder: |
         Provide steps to execute the test case.
+  - type: textarea
+    id: testdata
+    attributes:
+      label: Test Data
+      placeholder: |
+        Provide test data needed.
+   - type: textarea
+    id: expectedresults
+    attributes:
+      label: Expected Results
+      placeholder: |
+        User shoul login to the system
   - type: dropdown
     id: assign
     attributes:
