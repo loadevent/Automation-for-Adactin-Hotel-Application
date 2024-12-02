@@ -30,7 +30,7 @@ body:
       label: Test Data
       placeholder: |
         Provide test data needed.
-   - type: textarea
+  - type: textarea
     id: expectedresults
     attributes:
       label: Expected Results
