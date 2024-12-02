@@ -24,8 +24,7 @@ body:
     id: context
     attributes:
       label: Steps
-      placeholder: |
-        Specify steps needed to achieve the objective (Login to the application with username and password)
+      placeholder: Specify steps needed to achieve the objective (Login to the application with username and password)
     - type: textarea
     id: context
     attributes:
