@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Please fill out the sections below to properly define the test case.
-  - type: text
+  - type: textarea
     id: description
     attributes:
       label: Test Case ID
