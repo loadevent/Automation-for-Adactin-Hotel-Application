@@ -1,0 +1,48 @@
+name: "New Test Case"
+description: Create a new Test Case
+labels: ["test case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to properly define the test case.
+  - type: textarea
+    id: theid
+    attributes:
+      label: Test Case ID
+      placeholder: Provide Test Case ID (TC 101)
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      placeholder: To verify login functionality
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      placeholder: |
+        Provide steps to execute the test case.
+  - type: textarea
+    id: testdata
+    attributes:
+      label: Test Data
+      placeholder: |
+        Provide test data needed.
+  - type: textarea
+    id: expectedresults
+    attributes:
+      label: Expected Results
+      placeholder: |
+        User shoul login to the system
+  - type: dropdown
+    id: assign
+    attributes:
+      label: "Would you like to work on this issue?"
+      options:
+        - "Yes"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your suggestion! Let's see together if it can be implemented.
