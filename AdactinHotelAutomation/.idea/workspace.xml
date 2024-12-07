@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a23ed88-65b3-4e36-9f6c-0fecfbc7aff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/SearchHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/NewUserRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/ConfirmRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/NewRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tessdata/eng.traineddata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.Login.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kabelo Tlhape/repos/Selenium Projects/July/SeleniumTrainingMaven&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.Login.executor": "Run",
+    "JUnit.NewUserRegistration.executor": "Run",
+    "JUnit.NewUserRegistration.openNewRegisterForm.executor": "Run",
+    "JUnit.NewUserRegistration.registerNewUser.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kabelo Tlhape/repos/Selenium Projects/MasterSeleniumFramework"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kabelo Tlhape\Videos\Automation-for-Adactin-Hotel-Application\AdactinHotelAutomation\tessdata" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TestCases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NewUserRegistration">
     <configuration name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdactinHotelAutomation" />
       <extension name="coverage">
@@ -67,8 +79,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewUserRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdactinHotelAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.NewUserRegistration" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewUserRegistration.openNewRegisterForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdactinHotelAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.NewUserRegistration" />
+      <option name="METHOD_NAME" value="openNewRegisterForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewUserRegistration.registerNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdactinHotelAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.NewUserRegistration" />
+      <option name="METHOD_NAME" value="registerNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewUserRegistration" />
+        <item itemvalue="JUnit.NewUserRegistration.openNewRegisterForm" />
+        <item itemvalue="JUnit.NewUserRegistration.registerNewUser" />
         <item itemvalue="JUnit.Login" />
       </list>
     </recent_temporary>

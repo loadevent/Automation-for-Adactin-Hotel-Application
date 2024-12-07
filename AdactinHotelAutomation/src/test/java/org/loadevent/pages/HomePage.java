@@ -21,4 +21,9 @@ public class HomePage extends BasePage {
         driver.findElement(btnLogin).click();
         return new SearchHotel(driver);
     }
+
+    public NewRegistration clickRegister(){
+        driver.findElement(linkRegister).click();
+        return new NewRegistration(driver);
+    }
 }

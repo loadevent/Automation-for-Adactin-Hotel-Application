@@ -1,6 +1,8 @@
 package utils;
 
+import org.loadevent.pages.ConfirmRegistration;
 import org.loadevent.pages.HomePage;
+import org.loadevent.pages.NewRegistration;
 import org.loadevent.pages.SearchHotel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,6 +16,8 @@ public class BaseTest {
     protected static WebDriver driver;
     protected HomePage homePage;
     protected SearchHotel searchHotelPage;
+    protected NewRegistration newRegistrationPage;
+    protected ConfirmRegistration confirmRegistrationPage;
 
     public void init() throws Exception {
         driver = initializeDriver("chrome","https://adactinhotelapp.com/");
