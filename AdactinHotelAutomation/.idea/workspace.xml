@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a23ed88-65b3-4e36-9f6c-0fecfbc7aff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/NewUserRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/ConfirmRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/NewRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tessdata/eng.traineddata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/NewUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/NewUserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/NewRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/loadevent/pages/NewRegistration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="0f406a0ee1c50be40f42563c997d291618fa7607" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
@@ -50,7 +50,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "AHA-23-New__User__Registration",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kabelo Tlhape/repos/Selenium Projects/MasterSeleniumFramework"
   }
@@ -145,5 +145,28 @@
       <updated>1733414392136</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

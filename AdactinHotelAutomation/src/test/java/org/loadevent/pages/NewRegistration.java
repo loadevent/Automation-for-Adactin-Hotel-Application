@@ -21,8 +21,9 @@ public class NewRegistration extends BasePage {
     private final By chkTerms = By.xpath("//input[@id='tnc_box']");
     private final By btnRegister = By.xpath("//input[@id='Submit']");
     private final By btnReset = By.xpath("//input[@id='Reset']");
-    private final By imgCaptcha = By.cssSelector("#captcha");
-    private final By textCaptcha = By.xpath("#//input[@id='captcha-form']");
+    private final By imgCaptcha = By.cssSelector("img[id=captcha]");
+    //
+    private final By textCaptcha = By.xpath("//input[@id='captcha-form']");
 
     public NewRegistration(WebDriver driver) {
         super(driver);
@@ -63,9 +64,10 @@ public class NewRegistration extends BasePage {
 
         ITesseract image = new Tesseract();
 
-        String captchaString = image.doOCR(new File(path));
-
-        driver.findElement(textCaptcha).sendKeys(captchaString);
+        String captchaString = image.doOCR(src);
+        driver.findElement(this.textCaptcha).sendKeys(captchaString);
+        System.out.println("=======================================");
+        System.out.println(captchaString);
 
         return this;
 
